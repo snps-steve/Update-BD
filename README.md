@@ -101,12 +101,12 @@ crontab -l
 
 ## Configuration
 
-REPO_URL = "https://api.github.com/repos/blackducksoftware/hub/releases/latest"
-DOWNLOAD_DIR = "/opt"
-SYMLINK_PATH = "/opt/current"
-CURRENT_VERSION_FILE = "/opt/current_version.txt"
-START_SCRIPT = "/opt/bin/docker_swarm_start.sh"
-STOP_SCRIPT = "/opt/bin/docker_swarm_stop.sh"
+REPO_URL = "https://api.github.com/repos/blackducksoftware/hub/releases/latest"<br>
+DOWNLOAD_DIR = "/opt"<br>
+SYMLINK_PATH = "/opt/current"<br>
+CURRENT_VERSION_FILE = "/opt/current_version.txt"<br>
+START_SCRIPT = "/opt/bin/docker_swarm_start.sh"<br>
+STOP_SCRIPT = "/opt/bin/docker_swarm_stop.sh"<br>
 
 ## License
 
