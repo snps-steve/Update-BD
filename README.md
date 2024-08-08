@@ -14,7 +14,7 @@ The script does not require any credentials for authentication.
 - **Docker Swarm Management Scripts**: Stops the old Docker Swarm with `/opt/bin/docker_swarm_stop.sh`; starts it with `/opt/bin/docker_swarm_start.sh`.
 - **Container Pruning**: Removes old Containers with the Docker prune command so nothing old persists.
 - **SSL Certificate**: Uncomments out the sections in `docker-compose.local-overrides.yml` that we need for to support SSL encrypted web browsing.
-- **Log**: Logs INFO and ERROR messages to `/var/log/blackduck_update.log`.
+- **Log**: INFO and ERROR messages are logged to `/var/log/blackduck_update.log`.
 
 ## Requirements
 
